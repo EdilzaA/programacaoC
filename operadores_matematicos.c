@@ -7,7 +7,7 @@ int main(){
     Multiplicacao(*)
     Divisao(/)
     */
-
+    //1º Programa utilizando operadores aritméticos
     int numero1, numero2;
     int soma, subtracao, multiplicacao, divisao;
 
