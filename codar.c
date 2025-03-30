@@ -16,9 +16,9 @@ int main(){
     printf("Digite a sua terceita nota: \n");
     scanf("%d", &nota3);
 
-    media = (nota1 + nota2 + nota3) / 3; //clculo da média
+    media = (float) (nota1 + nota2 + nota3) / 3; //conversão exlícita casting - forçando p/ que tudo seja tratado como float
 
-    printf("A média é: %.2f\n\n", media); //impressão da média
+    printf("A média é: %.1f\n\n", media); //impressão da média
 
     return 0;
 
