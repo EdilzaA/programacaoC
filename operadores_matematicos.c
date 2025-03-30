@@ -12,7 +12,7 @@ int main(){
     int soma, subtracao, multiplicacao, divisao;
 
     printf("Entre com o numero 1: \n");
-    scanf("%d", &numero1);
+    scanf("%d", &numero1); //Ler o número 1
     printf("Entre com o numero 2: \n");
     scanf("%d", &numero2);
     scanf("d", &numero2); //Ler o número 2
