@@ -3,7 +3,7 @@
 int main(){
     
     int nota1, nota2, nota3;
-    int media;
+    int float;
 
     printf("*** Programa de Cálculo de Média ***\n"); //banner pra começar o programa
 
