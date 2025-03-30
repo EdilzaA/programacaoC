@@ -3,7 +3,7 @@
 int main(){
     
     int nota1, nota2, nota3;
-    int float;
+    float media;
 
     printf("*** Programa de Cálculo de Média ***\n"); //banner pra começar o programa
 
@@ -18,7 +18,7 @@ int main(){
 
     media = (nota1 + nota2 + nota3) / 3; //clculo da média
 
-    printf("A média é: %d\n\n", media); //impressão da média
+    printf("A média é: %.2f\n\n", media); //impressão da média
 
     return 0;
 
